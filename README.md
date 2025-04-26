@@ -28,7 +28,7 @@ Follow these steps to set up the project locally:
 
 2. Navigate into the project directory
    ```bash
-   cd laravel-todolist
+   cd laravel-todolist (you can rename it)
    ```
 
 3. Install PHP and Node.js dependencies
