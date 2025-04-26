@@ -1,68 +1,61 @@
-# Laravel To-Do List
+<p align="center"><a href="https://laravel.com" target="_blank"><img src="https://raw.githubusercontent.com/laravel/art/master/logo-lockup/5%20SVG/2%20CMYK/1%20Full%20Color/laravel-logolockup-cmyk-red.svg" width="400" alt="Laravel Logo"></a></p>
 
-A simple **To-Do List** application built using **Laravel**, one of the most powerful PHP frameworks. This app allows users to easily add, edit, mark as completed, and delete tasks with a clean and responsive interface.
+<p align="center">
+<a href="https://github.com/laravel/framework/actions"><img src="https://github.com/laravel/framework/workflows/tests/badge.svg" alt="Build Status"></a>
+<a href="https://packagist.org/packages/laravel/framework"><img src="https://img.shields.io/packagist/dt/laravel/framework" alt="Total Downloads"></a>
+<a href="https://packagist.org/packages/laravel/framework"><img src="https://img.shields.io/packagist/v/laravel/framework" alt="Latest Stable Version"></a>
+<a href="https://packagist.org/packages/laravel/framework"><img src="https://img.shields.io/packagist/l/laravel/framework" alt="License"></a>
+</p>
 
-## Features
-- Add new tasks
-- Mark tasks as completed or pending
-- Edit task names
-- Delete tasks
-- Input validation
-- User-friendly UI with Bootstrap 5 or Tailwind CSS (optional)
-- Manage data with Eloquent ORM
+## About Laravel
 
-## Technologies Used
-- Laravel (Version 10.x or latest)
-- PHP 8.x
-- MySQL / SQLite
-- Bootstrap 5 / Tailwind CSS (optional)
+Laravel is a web application framework with expressive, elegant syntax. We believe development must be an enjoyable and creative experience to be truly fulfilling. Laravel takes the pain out of development by easing common tasks used in many web projects, such as:
 
-## Installation
+- [Simple, fast routing engine](https://laravel.com/docs/routing).
+- [Powerful dependency injection container](https://laravel.com/docs/container).
+- Multiple back-ends for [session](https://laravel.com/docs/session) and [cache](https://laravel.com/docs/cache) storage.
+- Expressive, intuitive [database ORM](https://laravel.com/docs/eloquent).
+- Database agnostic [schema migrations](https://laravel.com/docs/migrations).
+- [Robust background job processing](https://laravel.com/docs/queues).
+- [Real-time event broadcasting](https://laravel.com/docs/broadcasting).
 
-Follow these steps to set up the project locally:
+Laravel is accessible, powerful, and provides tools required for large, robust applications.
 
-1. Clone the repository
-   ```bash
-   git clone https://github.com/your-username/laravel-todolist.git
-   ```
+## Learning Laravel
 
-2. Navigate into the project directory
-   ```bash
-   cd laravel-todolist (you can rename it)
-   ```
+Laravel has the most extensive and thorough [documentation](https://laravel.com/docs) and video tutorial library of all modern web application frameworks, making it a breeze to get started with the framework.
 
-3. Install PHP and Node.js dependencies
-   ```bash
-   composer install
-   npm install && npm run dev
-   ```
+You may also try the [Laravel Bootcamp](https://bootcamp.laravel.com), where you will be guided through building a modern Laravel application from scratch.
 
-4. Copy the `.env` file and generate the application key
-   ```bash
-   cp .env.example .env
-   php artisan key:generate
-   ```
+If you don't feel like reading, [Laracasts](https://laracasts.com) can help. Laracasts contains thousands of video tutorials on a range of topics including Laravel, modern PHP, unit testing, and JavaScript. Boost your skills by digging into our comprehensive video library.
 
-5. Set up your database in the `.env` file, then run the migrations
-   ```bash
-   php artisan migrate
-   ```
+## Laravel Sponsors
 
-6. Start the development server
-   ```bash
-   php artisan serve
-   ```
+We would like to extend our thanks to the following sponsors for funding Laravel development. If you are interested in becoming a sponsor, please visit the [Laravel Partners program](https://partners.laravel.com).
 
-The application will be available at `http://localhost:8000`.
+### Premium Partners
 
-## Contribution
+- **[Vehikl](https://vehikl.com/)**
+- **[Tighten Co.](https://tighten.co)**
+- **[Kirschbaum Development Group](https://kirschbaumdevelopment.com)**
+- **[64 Robots](https://64robots.com)**
+- **[Curotec](https://www.curotec.com/services/technologies/laravel/)**
+- **[DevSquad](https://devsquad.com/hire-laravel-developers)**
+- **[Redberry](https://redberry.international/laravel-development/)**
+- **[Active Logic](https://activelogic.com)**
 
-Contributions are welcome!  
-If you want to contribute, please fork the repository, create a new branch, and submit a pull request.  
-For major changes, please open an issue first to discuss what you would like to change.
+## Contributing
 
----
+Thank you for considering contributing to the Laravel framework! The contribution guide can be found in the [Laravel documentation](https://laravel.com/docs/contributions).
 
-**Happy coding! 🚀**
-The Size is 2Gb
-```
+## Code of Conduct
+
+In order to ensure that the Laravel community is welcoming to all, please review and abide by the [Code of Conduct](https://laravel.com/docs/contributions#code-of-conduct).
+
+## Security Vulnerabilities
+
+If you discover a security vulnerability within Laravel, please send an e-mail to Taylor Otwell via [taylor@laravel.com](mailto:taylor@laravel.com). All security vulnerabilities will be promptly addressed.
+
+## License
+
+The Laravel framework is open-sourced software licensed under the [MIT license](https://opensource.org/licenses/MIT).
