@@ -64,4 +64,5 @@ For major changes, please open an issue first to discuss what you would like to 
 ---
 
 **Happy coding! 🚀**
+The Size is 2Gb
 ```
