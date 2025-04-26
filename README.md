@@ -1,6 +1,3 @@
-Oke, ini aku buatkan langsung dalam format **README.md** untuk GitHub-mu:
-
-```markdown
 # Laravel To-Do List
 
 A simple **To-Do List** application built using **Laravel**, one of the most powerful PHP frameworks. This app allows users to easily add, edit, mark as completed, and delete tasks with a clean and responsive interface.
